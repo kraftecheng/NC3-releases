@@ -1,0 +1,5 @@
+{
+  "version": "3.8.0",
+  "url": "https://github.com/kraftecheng/NC3-releases/releases/download/v3.8.0/NC3_Setup_3.8.0.exe",
+  "notes": "STEP import (single parts + assemblies), direct-fire arc ignition option with retry, Y=H machine support, toolpath and kerf-normal fixes."
+}
