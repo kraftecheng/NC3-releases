@@ -1,5 +1,5 @@
 {
-  "version": "3.9.1",
-  "url": "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.1/NC3_Setup_3.9.1.exe",
-  "notes": "Y=H cell: the mount slot moves the robot base instead of double-counting a taught UF9, and the registration laser follows the datum side. Per-slot robot models with live swap. Robot-2 link no longer starts when no laser is mounted. Sidecar PR/DO commands drain stale replies and retry. Enter no longer closes the settings dialog."
+  "version": "3.9.2",
+  "url": "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.2/NC3_Setup_3.9.2.exe",
+  "notes": "Robot alarms: the full Fanuc error with cause and severity, plus an alarm box that pops up on any fault. REGISTER can run REGISTER_BEAM directly over KCL. Hypertherm XPR error code and text. Diagnostic logs now write to %TEMP%\NC3 on installed machines. Updates install silently and keep their branding."
 }
