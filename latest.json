@@ -1,5 +1,5 @@
 {
-  "version": "3.8.0",
-  "url": "https://github.com/kraftecheng/NC3-releases/releases/download/v3.8.0/NC3_Setup_3.8.0.exe",
-  "notes": "STEP import (single parts + assemblies), direct-fire arc ignition option with retry, Y=H machine support, toolpath and kerf-normal fixes."
+  "version": "3.9.1",
+  "url": "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.1/NC3_Setup_3.9.1.exe",
+  "notes": "Y=H cell: the mount slot moves the robot base instead of double-counting a taught UF9, and the registration laser follows the datum side. Per-slot robot models with live swap. Robot-2 link no longer starts when no laser is mounted. Sidecar PR/DO commands drain stale replies and retry. Enter no longer closes the settings dialog."
 }
