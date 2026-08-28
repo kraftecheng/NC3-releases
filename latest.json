@@ -1,5 +1,5 @@
 {
-  "version": "3.9.3",
-  "url": "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.3/NC3_Setup_3.9.3.exe",
-  "notes": "Dimetix rego position is one calibration shared with the PLC - Process Settings reads the cell's own value and writes it back, with Teach and From bar. The LENGTH check now follows the PLC's verdict, so the light goes red when the cell objects and accepting the override writes it through. Robot speed R[33] is visible and settable again. Cell telemetry gains the length and slip chain. Cameras run at full rate - a 15 fps cap was reading as lag. Alarms are event-driven off the PLC fault bit instead of polling. Fixes the 273.97 mm cell jump on opening Settings and a refused batch read that showed as sidecar not responding."
+  "version": "3.9.4",
+  "url": "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.4/NC3_Setup_3.9.4.exe",
+  "notes": "REGISTER and CYCLE START now say why the cell refused them - a refused press used to vanish with no motion and no message. NC3 reads each PLC gate before pressing and names the term that shut it: robot faulted, not at perch, busy, E-stop, a job still running (DO150), manual override, beam not registered, or length. The PLC's own length check works again: NC3 writes the expected length and tolerance before registration, re-arming a compare that was silently skipped. Includes 3.9.3 - Dimetix rego position shared with the PLC (Teach / From bar), the LENGTH override following the PLC's flag, robot speed R[33] visible and settable, and the length and slip chain on the telemetry screen."
 }
