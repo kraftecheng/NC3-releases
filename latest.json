@@ -1,5 +1,5 @@
 {
-  "version": "3.9.2",
-  "url": "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.2/NC3_Setup_3.9.2.exe",
-  "notes": "Robot alarms: the full Fanuc error with cause and severity, plus an alarm box that pops up on any fault. REGISTER can run REGISTER_BEAM directly over KCL. Hypertherm XPR error code and text. Diagnostic logs now write to %TEMP%\NC3 on installed machines. Updates install silently and keep their branding."
+  "version": "3.9.3",
+  "url": "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.3/NC3_Setup_3.9.3.exe",
+  "notes": "Dimetix rego position is one calibration shared with the PLC - Process Settings reads the cell's own value and writes it back, with Teach and From bar. The LENGTH check now follows the PLC's verdict, so the light goes red when the cell objects and accepting the override writes it through. Robot speed R[33] is visible and settable again. Cell telemetry gains the length and slip chain. Cameras run at full rate - a 15 fps cap was reading as lag. Alarms are event-driven off the PLC fault bit instead of polling. Fixes the 273.97 mm cell jump on opening Settings and a refused batch read that showed as sidecar not responding."
 }
