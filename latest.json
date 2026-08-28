@@ -1,5 +1,5 @@
 {
-  "version": "3.9.4",
-  "url": "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.4/NC3_Setup_3.9.4.exe",
-  "notes": "REGISTER and CYCLE START now say why the cell refused them - a refused press used to vanish with no motion and no message. NC3 reads each PLC gate before pressing and names the term that shut it: robot faulted, not at perch, busy, E-stop, a job still running (DO150), manual override, beam not registered, or length. The PLC's own length check works again: NC3 writes the expected length and tolerance before registration, re-arming a compare that was silently skipped. Includes 3.9.3 - Dimetix rego position shared with the PLC (Teach / From bar), the LENGTH override following the PLC's flag, robot speed R[33] visible and settable, and the length and slip chain on the telemetry screen."
+  "version": "3.9.5",
+  "url": "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.5/NC3_Setup_3.9.5.exe",
+  "notes": "Cycle Start checks the robot is actually accepting remote starts - the cut cycle is a UOP remote start, which a controller in local discards without a word while REGISTER, a macro on an ordinary input, keeps working. It now reads CMDENBL first and says so, calling out a teach pendant left enabled; telemetry gains RSR2 out and its acknowledge back. The Adjust dialog can set the ghost / stock length, for a remnant or an over/under mill length. The update check runs BEFORE the splash and boot load, the installed version is in both title bars, and a silent install writes a log to %TEMP%. Includes 3.9.4: REGISTER and CYCLE START name the PLC gate that refused them, and NC3 feeds the PLC's expected length so its wrong-stock check works again."
 }
