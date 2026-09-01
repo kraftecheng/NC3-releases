@@ -1,5 +1,5 @@
 {
-    "version":  "3.9.12",
-    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.12/NC3_Setup_3.9.12.exe",
-    "notes":  "Cut chart thickness round-up stays inside the selected gas family and a same-material row always beats the cross-material fallback - 9.53mm mild steel at 130A selected the stainless Mix/N2 process (2053); it now selects the mild 11.0mm row. Web copes start at the part\u0027s actual end wire, including trimmed and nested bars whose ends are not at stock X=0/-L. Y=H datum machines seat roof-seated angle and tee sections by their true across-bed extent instead of section H - a 152x102 angle overhung the fence by 25mm in the viewer and in every exported Y. Auto Min-TCP golden rule defaults to 4mm. New robot_karel/SENDPOS2.KL replaces SEND_POS\u0027s screen-scan register feed with live CURJPOS conveyor positions for R51/R52."
+    "version":  "3.9.13",
+    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.13/NC3_Setup_3.9.13.exe",
+    "notes":  "SHS/RHS routing and cut order now mirror with the robot mount slot - slot-2 installs previously routed rapids and ordered walls as if the robot stood in slot 1. Wall departures leave along their own wall\u0027s highway edge; staging entries land on the target hemisphere\u0027s highway with collision-guarded lifts; same-wall hole-to-hole transits hop direct instead of touring the corridor; the end-cut access path falls back to the ring walk when its lift would cross the section. Holes on the -Z wall of a hollow section cut from their own side instead of through the tube. Angle sections: depth lines and edge wires anchor on the true wire and depth lines are bounded at six wall thicknesses."
 }
