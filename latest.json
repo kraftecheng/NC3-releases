@@ -1,5 +1,5 @@
 {
-    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.14/NC3_Setup_3.9.14.exe",
-    "version":  "3.9.14",
-    "notes":  "SHS per-wall wrap speeds + nest-aware lead-ins, SHS pierce quality toggles, dross-bin interlock, Weld Enable button, live beam tracking + UF readback."
+    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.15/NC3_Setup_3.9.15.exe",
+    "version":  "3.9.15",
+    "notes":  "Updater crash fix (prompt self-closing / download dying partway) + everything in 3.9.14."
 }
