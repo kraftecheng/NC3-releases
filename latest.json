@@ -1,5 +1,5 @@
 {
-    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.23/NC3_Setup_3.9.23.exe",
-    "version":  "3.9.23",
-    "notes":  "Status banner: green SYSTEM OKAY - NO FAULTS when clear; red only while a live fault is up. Includes the 3.9.21/3.9.22 critical outfeed fixes."
+    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.24/NC3_Setup_3.9.24.exe",
+    "version":  "3.9.24",
+    "notes":  "Phantom PLASMA FAULT after a cleared Kjellberg error fixed (live status code); Safety PATH1 scanner rows show DISABLED on uncommissioned cells."
 }
