@@ -1,5 +1,5 @@
 {
-    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.20/NC3_Setup_3.9.20.exe",
-    "version":  "3.9.20",
-    "notes":  "Toolpath generation progress bar - no more UI freeze during Generate."
+    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.21/NC3_Setup_3.9.21.exe",
+    "version":  "3.9.21",
+    "notes":  "CRITICAL nest-cutting fix: MOVE_OUTFEED is a CALL (the RUN in 3.9.19/3.9.20 faulted and blocked the next part). Update before cutting nests."
 }
