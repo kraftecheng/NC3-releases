@@ -1,5 +1,5 @@
 {
-    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.16/NC3_Setup_3.9.16.exe",
-    "version":  "3.9.16",
-    "notes":  "Weld Enable via the PLC (green armed / amber dry run)."
+    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.17/NC3_Setup_3.9.17.exe",
+    "version":  "3.9.17",
+    "notes":  "NEST ribbon tabs + customise; SHS routing and GSL/GSR corrections on every wall; mitre severs call MOVE_OUTFEED; End Conditions renamed."
 }
