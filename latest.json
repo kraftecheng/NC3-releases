@@ -1,5 +1,5 @@
 {
-    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.18/NC3_Setup_3.9.18.exe",
-    "version":  "3.9.18",
-    "notes":  "Channel import overhaul (AS web holes, fillet carve at copes); marks correct on every face of every section, display and toolpath agreeing; AS SI text joins."
+    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.19/NC3_Setup_3.9.19.exe",
+    "version":  "3.9.19",
+    "notes":  "Robot status banner + alarm history; MOVE_OUTFEED standard; Adjust rotation/common-cut columns; Kjellberg flying cut; beam-follow hardening."
 }
