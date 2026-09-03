@@ -1,5 +1,5 @@
 {
-    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.22/NC3_Setup_3.9.22.exe",
-    "version":  "3.9.22",
-    "notes":  "CRITICAL nest-cutting fix part 2: post-sever windows use full SLIPCOMP (SLIPCOMP_G2 was not on the controller and would fault). Update from 3.9.19-3.9.21 before cutting nests."
+    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.23/NC3_Setup_3.9.23.exe",
+    "version":  "3.9.23",
+    "notes":  "Status banner: green SYSTEM OKAY - NO FAULTS when clear; red only while a live fault is up. Includes the 3.9.21/3.9.22 critical outfeed fixes."
 }
