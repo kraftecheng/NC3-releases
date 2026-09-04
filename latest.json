@@ -1,5 +1,5 @@
 {
-    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.24/NC3_Setup_3.9.24.exe",
-    "version":  "3.9.24",
-    "notes":  "Phantom PLASMA FAULT after a cleared Kjellberg error fixed (live status code); Safety PATH1 scanner rows show DISABLED on uncommissioned cells."
+    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.25/NC3_Setup_3.9.25.exe",
+    "version":  "3.9.25",
+    "notes":  "Channel stringers import correctly: chevron ends from the web AK, web and flange weld-prep bevels, and the junction step removed. New NEST EDIT tab - add and remove parts from a nested beam, shuffle them along the bar with the arrows, rotate and turn parts."
 }
