@@ -1,5 +1,5 @@
 {
-    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.27/NC3_Setup_3.9.27.exe",
-    "version":  "3.9.27",
-    "notes":  "Removing or capping a weld prep now puts the flange back on the part's mitre instead of squaring it across the bar - nose chamfers too. Every bevel can be listed and treated, not only the flagged ones. New Vertices mode: click a corner in the 3D view and take it out, with every contour point drawn and shared corners removed from both faces at once. Face trim, extend and heal for repairing imported faces."
+    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.28/NC3_Setup_3.9.28.exe",
+    "version":  "3.9.28",
+    "notes":  "Removing or capping a weld prep now puts the flange back on the part's mitre instead of squaring it across the bar - nose chamfers too - and only for a prep actually cut into the flange, so deeper end-shape detail is left alone. Every bevel can be listed and treated, not only the flagged ones. New Vertices mode: click a corner in the 3D view and take it out, with every contour point drawn and shared corners removed from both faces at once. Face trim, extend and heal for repairing imported faces."
 }
