@@ -1,5 +1,5 @@
-{
-    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.25/NC3_Setup_3.9.25.exe",
-    "version":  "3.9.25",
-    "notes":  "Channel stringers import correctly: chevron ends from the web AK, web and flange weld-prep bevels, and the junction step removed. New NEST EDIT tab - add and remove parts from a nested beam, shuffle them along the bar with the arrows, rotate and turn parts."
+﻿{
+    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.27/NC3_Setup_3.9.27.exe",
+    "version":  "3.9.27",
+    "notes":  "Removing or capping a weld prep now puts the flange back on the part's mitre instead of squaring it across the bar - nose chamfers too. Every bevel can be listed and treated, not only the flagged ones. New Vertices mode: click a corner in the 3D view and take it out, with every contour point drawn and shared corners removed from both faces at once. Face trim, extend and heal for repairing imported faces."
 }
