@@ -1,5 +1,5 @@
 {
-    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.28/NC3_Setup_3.9.28.exe",
-    "version":  "3.9.28",
-    "notes":  "Removing or capping a weld prep now puts the flange back on the part's mitre instead of squaring it across the bar - nose chamfers too - and only for a prep actually cut into the flange, so deeper end-shape detail is left alone. Every bevel can be listed and treated, not only the flagged ones. New Vertices mode: click a corner in the 3D view and take it out, with every contour point drawn and shared corners removed from both faces at once. Face trim, extend and heal for repairing imported faces."
+    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.29/NC3_Setup_3.9.29.exe",
+    "version":  "3.9.29",
+    "notes":  "Import check editor: Move face and Move to corner now grow the face to fill the section - the neighbouring faces follow, no walls left to trim. New Radius tool: click an edge to put a radius on it, or click a radius face to change it or take it out (0 = sharp corner). Add prep removed. Edit bevels is now Quick edit, on the right-click menu and as a button on the PARTS tab. Loading bars while parts are checked and imported."
 }
