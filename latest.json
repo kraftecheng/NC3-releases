@@ -1,5 +1,5 @@
 {
-    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.30/NC3_Setup_3.9.30.exe",
-    "version":  "3.9.30",
-    "notes":  "Import check editor finished: change or remove a radius, Quick edit from the right-click menu and the PARTS ribbon, Accept all auto edits and Verify on both tabs, a warning before importing parts still marked BLOCKED, Rotate face hinged on a third face, and a repaired part shows its own corners in Vertices. Import accepts Tekla PowerFab BA / DSTV+ bar files and builds the nest as written, flagging parts left out. The nested ghost beam is built from the steel database by profile."
+    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.31/NC3_Setup_3.9.31.exe",
+    "version":  "3.9.31",
+    "notes":  "NC3-CONTROL gains a Portal button on the Load panel: open a project written by another nesting system and run the import check on its parts first; repairs are written back into the project, then the bar opens as usual. New NC3 app icons - NEST orange, CONTROL green."
 }
