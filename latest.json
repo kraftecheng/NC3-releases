@@ -1,5 +1,5 @@
 {
-    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.31/NC3_Setup_3.9.31.exe",
-    "version":  "3.9.31",
-    "notes":  "NC3-CONTROL gains a Portal button on the Load panel: open a project written by another nesting system and run the import check on its parts first; repairs are written back into the project, then the bar opens as usual. New NC3 app icons - NEST orange, CONTROL green."
+    "url":  "https://github.com/kraftecheng/NC3-releases/releases/download/v3.9.32/NC3_Setup_3.9.32.exe",
+    "version":  "3.9.32",
+    "notes":  "NC3-CONTROL: GENERATE only generates - a new SEND button (step 2) transfers the programs and goes green only once the robot has accepted every one; nest cutting windows now hold as many whole parts as fit (one MEBP per window, holes first, end cuts part by part, stamp + outfeed after each part) with a Settings toggle to revert; window width is saved (default 900); MEBP finds never land on a part already outfed; UF1 sanity gate pauses on a bad MEBP solve; Hold at last window to clear magnet; angle holes on both legs; outfeed popup fixed for the pulsed Rev8 handshake plus a Dismiss; staging folders live inside the install folder (robot_out, robot_install) with DEV Send Folder and Del Cut Progs; plasma consoles fit the screen; MODERN end cuts overrun the toe; edge-start dwell is a setting."
 }
