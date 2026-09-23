@@ -1,1 +1,5 @@
-{"version":"4.0.14","url":"https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.14/NC3_Setup_4.0.14.exe","notes":"SHS / RHS fix: a hole or cut on a side wall is now reached along that wall's own highway, straight in from the side, instead of under the bar and up beside the wall. The wrist flip between the top and bottom hemispheres now always happens out on the highway corner, never beside the steel - the joint move that ran through the section in the last window of a box job is gone. Corner pierces, the perimeter cut itself and round tube are unchanged."}
+{
+   "notes" : "On-screen keypad for every number field, opening beside the window and following you from field to field, with maths (1200/2+15), feet-inches-fractions to 1/64 and Enter that no longer closes the window. MODERN end cuts on every PFC and angle end. Parts list keeps the part name readable.",
+   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.15/NC3_Setup_4.0.15.exe",
+   "version" : "4.0.15"
+}
