@@ -1,5 +1,5 @@
 {
-   "notes" : "On-screen keypad for every number field, opening beside the window and following you from field to field, with maths (1200/2+15), feet-inches-fractions to 1/64 and Enter that no longer closes the window. MODERN end cuts on every PFC and angle end. Parts list keeps the part name readable.",
-   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.15/NC3_Setup_4.0.15.exe",
-   "version" : "4.0.15"
+   "notes" : "HSS corner seams no longer cut and underside holes approached from the full side highway; wide-flange holes now toolpathed; bent angle and channel rotate like the rolled section; cleaner import of C-channel, W and HSS parts, with Cap 45 on every bevel.",
+   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.16/NC3_Setup_4.0.16.exe",
+   "version" : "4.0.16"
 }
