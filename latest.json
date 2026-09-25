@@ -1,5 +1,5 @@
 {
-   "notes" : "Tapered-flange channels: flange holes are cut once, from the outside face. MODERN end cuts now cover every cut on channel and angle, mitres included. Beam editor: sketch dimensions and relations, 3D Cuts straight to a face, Save to NC, and restyled dialogs.",
-   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.17/NC3_Setup_4.0.17.exe",
-   "version" : "4.0.17"
+   "notes" : "Channel: a bevelled web end no longer flips the torch 180 degrees - both ends of a C channel now cut with the same torch rotation.",
+   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.18/NC3_Setup_4.0.18.exe",
+   "version" : "4.0.18"
 }
