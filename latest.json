@@ -1,5 +1,5 @@
 {
-   "notes" : "Channel: a bevelled web end no longer flips the torch 180 degrees - both ends of a C channel now cut with the same torch rotation.",
-   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.18/NC3_Setup_4.0.18.exe",
-   "version" : "4.0.18"
+   "notes" : "Automatic amperage from plate thickness when a bar is loaded, with saved defaults per section (green = recommended, blue = your saved default, grey = changed). SHS chevron double mitres import sharp and cut without the torch twist; windows move only when a bevel needs roller clearance.",
+   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.19/NC3_Setup_4.0.19.exe",
+   "version" : "4.0.19"
 }
