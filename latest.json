@@ -1,5 +1,5 @@
 {
-   "notes" : "Automatic amperage from plate thickness when a bar is loaded, with saved defaults per section (green = recommended, blue = your saved default, grey = changed). SHS chevron double mitres import sharp and cut without the torch twist; windows move only when a bevel needs roller clearance.",
-   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.19/NC3_Setup_4.0.19.exe",
-   "version" : "4.0.19"
+   "notes" : "Cut-outs can be opened up by a clearance each side (Import Check Cut-outs tab, or right-click the parts in NEST), shown in place on the part. Layout text the torch cannot reach is moved to a face it can mark, or swapped by hand - in Import Check and in CONTROL at toolpath time - and layout lines are clipped to the reachable zone. Cut-outs in I-beam, channel and tee flanges and in pipes now import where the file puts them. Angle and channel copes flush with the other leg leave 0.5 mm so the root cut is toolpathed. Hollow-section corner radius is checked against the section's own standard and offered as a fix. Flat bar imports and cuts as a channel web. NEST part viewer has Left and Right end views.",
+   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.20/NC3_Setup_4.0.20.exe",
+   "version" : "4.0.20"
 }
