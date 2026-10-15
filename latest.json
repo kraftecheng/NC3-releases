@@ -1,5 +1,5 @@
 {
-   "notes":"Channels with a web coped flush to the flange's inner face (both flanges cut off at the end and the web cut along the flange line) now get their toolpath. The import keeps 0.5 mm of the web standing inside the flange band so the cut along the flange is a real cut, and Import Check lists it as \"Flush cope - material left\" instead of the old \"left as drawn\" warning. The import's sliver trim no longer removes that 0.5 mm strip on such parts. Import Check's face detail now reports each face's position and tolerance.",
-   "url":"https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.23/NC3_Setup_4.0.23.exe",
-   "version":"4.0.23"
+   "notes":"Hole height measure (CONTROL, off by default): before each hole the laser reads the plate at the hole centre and the hole is cut at the measured height - turn on in Process Settings > Holes, needs HOLE_MEAS and SLIP_V2 REV4 on the robot. Flush cope clearance is now a setting in NEST and CONTROL; a cope drawn closer to the web than the clearance is held off at the clearance, default 0.5 mm as before. Kjellberg sources get automatic amperage from the cut chart. Flange cuts over a shallow web cope slow to the chart speed for the full depth. German, French and Spanish language packs for both apps (General settings > Language).",
+   "url":"https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.24/NC3_Setup_4.0.24.exe",
+   "version":"4.0.24"
 }
