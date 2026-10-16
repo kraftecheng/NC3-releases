@@ -1,5 +1,5 @@
 {
-   "notes":"Hole height measure (CONTROL, off by default): before each hole the laser reads the plate at the hole centre and the hole is cut at the measured height - turn on in Process Settings > Holes, needs HOLE_MEAS and SLIP_V2 REV4 on the robot. Flush cope clearance is now a setting in NEST and CONTROL; a cope drawn closer to the web than the clearance is held off at the clearance, default 0.5 mm as before. Kjellberg sources get automatic amperage from the cut chart. Flange cuts over a shallow web cope slow to the chart speed for the full depth. German, French and Spanish language packs for both apps (General settings > Language).",
-   "url":"https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.24/NC3_Setup_4.0.24.exe",
-   "version":"4.0.24"
+   "notes":"Channels with 45 degree mitred ends import clean: Tekla writes the bevelled flange end a fraction of a millimetre short of the web's mitre line, and the import now puts it on the line - the small notch at the flange corner is gone, no quick edit needed, and BOTH flange bevels of a mitred channel get their toolpath in CONTROL (one was being missed). Includes everything in 4.0.24: hole height measure (off by default), flush cope clearance setting, Kjellberg chart amperage, depth-aware flange cut speed, German, French and Spanish language packs.",
+   "url":"https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.25/NC3_Setup_4.0.25.exe",
+   "version":"4.0.25"
 }
