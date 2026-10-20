@@ -1,5 +1,5 @@
 {
-   "notes" : "Flange clearing (block out) on copes too tight to cut directly now generates in seconds instead of close to a minute, and its cuts stay with the part: 30 mm into the remnant where there is no matching cope (stated on the pendant), and never into a neighbouring nested part. Thick-plate holes past the True Hole range (for example 1-3/8 inch in a 1-3/8 inch flange at 300 A) now run their lead-in and circle at about 40% of cut speed for rounder holes. True Hole chart data corrected: no more tiny dit instead of a hole in 21-23 mm plate at 300 A. Hole height measure (off by default) is now REV5: one offset per face on its own axis with a 20 mm guard - load SLIP_V2 REV5 and HOLE_MEAS REV5 on the robot together. Channels whose web is cut back behind the flange ends import with their flange tabs, and Import Check now flags any drawn outline it cannot build instead of dropping it silently. Includes everything in 4.0.25.",
-   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.26/NC3_Setup_4.0.26.exe",
-   "version" : "4.0.26"
+   "notes" : "SHS and RHS: after the last cut of each window the torch now goes straight across the top to home, instead of dipping back in toward the section. Nested bars: before SEND or Export, NC3 now warns when two neighbouring parts have nothing cutting them apart (they would leave the cell joined) and names them - cancel and fix the nest or the end settings, or carry on if that is intended. Includes everything in 4.0.26.",
+   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.27/NC3_Setup_4.0.27.exe",
+   "version" : "4.0.27"
 }
