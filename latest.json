@@ -1,5 +1,5 @@
 {
-   "notes" : "SHS and RHS: after the last cut of each window the torch now goes straight across the top to home, instead of dipping back in toward the section. Nested bars: before SEND or Export, NC3 now warns when two neighbouring parts have nothing cutting them apart (they would leave the cell joined) and names them - cancel and fix the nest or the end settings, or carry on if that is intended. Includes everything in 4.0.26.",
-   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.27/NC3_Setup_4.0.27.exe",
-   "version" : "4.0.27"
+   "notes" : "SHS/RHS (box sections): the torch no longer flips through the tube on the highway ring. A wrist reconfigure (J move) is only made before the first cut of a window; every later ring move is linear. A lift off a side wall now goes out to that wall's own highway instead of down beside the steel. If you cut SHS/RHS, update before the next job.",
+   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.28/NC3_Setup_4.0.28.exe",
+   "version" : "4.0.28"
 }
