@@ -1,5 +1,5 @@
 {
-   "notes" : "SHS/RHS (box sections): the torch no longer flips through the tube on the highway ring. A wrist reconfigure (J move) is only made before the first cut of a window; every later ring move is linear. A lift off a side wall now goes out to that wall's own highway instead of down beside the steel. If you cut SHS/RHS, update before the next job.",
-   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.0.28/NC3_Setup_4.0.28.exe",
-   "version" : "4.0.28"
+   "notes" : "SHS/RHS (box sections): every wrist re-point on the highway ring is a JOINT move again, before and after cuts - the 4.0.28 linear ring moves gave limit errors and swung the torch through the bar. A lift off a corner or side wall now rises along that wall to its own highway, and the drop from the highway to a side-wall cut comes straight down the wall. If you cut SHS/RHS, update before the next job. Also: trade-show / demo-cell mode (standalone robot programs, no safety or plasma link), NEST end markers for flange-clearing copes.",
+   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.1.0/NC3_Setup_4.1.0.exe",
+   "version" : "4.1.0"
 }
