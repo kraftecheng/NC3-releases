@@ -1,5 +1,5 @@
 {
-   "notes" : "Angle sections: a bevelled leg cut no longer turns the torch over on the way in (joint limit error on the approach to the bevel). Outfeed: the Confirm - part unloaded popup no longer sticks on Releasing - if the robot does not take the release within 6 seconds it says so and offers to clear the stage signal; Dismiss snoozes it for 2 minutes. Smoother 3D view while the robots run live or in simulation. If you cut angles or use the outfeed, update.",
-   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.1.1/NC3_Setup_4.1.1.exe",
-   "version" : "4.1.1"
+   "notes" : "Web split (SL) beams: the holes on the web were being dropped from the toolpath together with the split slot, so only the split was cut. They are cut again. If you cut web-split beams that also have holes, update before the next one.",
+   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.1.2/NC3_Setup_4.1.2.exe",
+   "version" : "4.1.2"
 }
