@@ -1,5 +1,5 @@
 {
-   "notes" : "Web split (SL) beams: the holes on the web were being dropped from the toolpath together with the split slot, so only the split was cut. They are cut again. If you cut web-split beams that also have holes, update before the next one.",
-   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.1.2/NC3_Setup_4.1.2.exe",
-   "version" : "4.1.2"
+   "notes" : "Heavy beams: the flange cut over the web junction now slows down to suit the real depth it has to get through (the cut chart is extended past its last row), so thick flanges separate cleanly. Update before cutting large beams. Deep I-beam copes: where a web cope sits inside the root fillet band the corner radius is now cut as one smooth pass, with no loop or hop at the radius, and the fillet is left in place under the cope instead of being flushed off.",
+   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.1.3/NC3_Setup_4.1.3.exe",
+   "version" : "4.1.3"
 }
