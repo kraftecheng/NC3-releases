@@ -1,5 +1,0 @@
-{
-   "notes" : "Bent plate channel: end cuts are now made as two SHS-style passes starting from the toes - one leg alone, then the other leg, over the bend and across the web - with the basic position measure routed directly over the legs and web instead of around the full highway ring. Marked parts get fewer, wider cutting windows. Settings: cell view presets (Full / Half / None, each editable), one-click Y = 0 / Y = H machine layouts that swap the robot perch and recall that layout's UF9, and separate torch rotation pages for bent plate channel and bent plate angle. The program panel lists each hole height read as HOLE HEIGHT.",
-   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.1.4/NC3_Setup_4.1.4.exe",
-   "version" : "4.1.4"
-}
