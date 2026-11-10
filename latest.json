@@ -1,5 +1,5 @@
 {
-   "notes" : "Plate marking with the outline font now runs true arcs through the letter radii instead of many short straight moves, so marked programs are much smaller and load on controllers with limited program memory. Torch rotations open on the bent plate page for bent parts.",
+   "notes" : "Plate marking with the outline font now runs true arcs through the letter radii instead of many short straight moves, so marked programs are much smaller and load on controllers with limited program memory.",
    "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.1.5/NC3_Setup_4.1.5.exe",
    "version" : "4.1.5"
 }
