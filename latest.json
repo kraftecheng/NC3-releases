@@ -1,5 +1,5 @@
 {
-   "notes" : "Channel (PFC) web copes drawn inside the flange thickness now cut: the flange is cleared along the heel line first, then the cope is cut at the dimension on the drawing. Channel web copes drawn exactly at the flange thickness get their toolpath without the import moving the line. Channel web cope runs slow down for the web and fillet depth. New: NC trace window (click a face to see the NC lines that made it), cope corner radius setting and an Import settings page, a measure tool in the NEST editor, RHS lap holes and box-end lead-ins.",
-   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.1.6/NC3_Setup_4.1.6.exe",
-   "version" : "4.1.6"
+   "notes" : "Channel (PFC) web copes drawn inside the flange thickness: the flange clearing cut now fires on every such cope, including a cope that meets the neighbouring part at a joint in a nest, and it stops at the end of the part instead of running on through the stock or into the next part. Update before cutting these parts.",
+   "url" : "https://github.com/kraftecheng/NC3-releases/releases/download/v4.1.7/NC3_Setup_4.1.7.exe",
+   "version" : "4.1.7"
 }
